@@ -1,0 +1,11 @@
+<google-map
+    [center]="center"
+    (display)="infoWindowDisplayed($event)"
+></google-map>
+<info-window
+    id="info-window"
+    [hidden]="hideInfoWindow()"
+    [heading]="locationData.displayName"
+    [contents]="locationData.contents"
+    [src]="locationData.src"
+></info-window>

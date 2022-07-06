@@ -1,4 +1,4 @@
-import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Loader } from '@googlemaps/js-api-loader';
 import { MarkerProperties } from '../../locationData';
 import { MarkersService } from '../../services/markers.service';
@@ -11,15 +11,13 @@ import { MarkersService } from '../../services/markers.service';
 export class MapComponent implements OnInit {
     map!: google.maps.Map;
     infoWindow!: google.maps.InfoWindow;
-    getLocationData: { (uid: string): any };
     markers: MarkerProperties[] = [];
 
     @Input('center') mapCenter: google.maps.LatLngLiteral = { lat: 0, lng: 0 };
-    @ViewChild('info-window-container') infoWindowContainer!: ElementRef;
+    @Output('display') display = new EventEmitter();
 
     constructor(markersService: MarkersService) {
         this.markers = markersService.getMarkers();
-        this.getLocationData = markersService.getLocationData;
     }
 
     // creates a new marker and adds it to the existing map
@@ -27,13 +25,12 @@ export class MapComponent implements OnInit {
         let marker = new google.maps.Marker({ ...props, map: this.map });
         google.maps.event.addListener(marker, 'click', () => {
             console.log(`clicked on ${props.title}`);
-            console.log(this.getLocationData(props.uid));
             this.infoWindow.open({
                 anchor: marker,
                 map: this.map,
                 shouldFocus: false,
             });
-            console.log(this.infoWindowContainer.nativeElement);
+            this.display.emit(props.uid);
         });
     }
 
@@ -49,13 +46,12 @@ export class MapComponent implements OnInit {
                 document.getElementById('map') as HTMLElement,
                 {
                     center: this.mapCenter,
-                    zoom: 8,
+                    zoom: window.innerWidth > 600 ? 4.4 : 3.3,
                 }
             );
 
-            this.infoWindow = new google.maps.InfoWindow({
-                content: '<div #info-window-container>Placeholder</div>',
-            });
+            this.infoWindow = new google.maps.InfoWindow();
+            this.infoWindow.setContent(document.getElementById('info-window'));
             this.markers.forEach((marker) => this.injectMarker(marker));
         });
     }

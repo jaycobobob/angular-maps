@@ -6,6 +6,7 @@ import { MarkersService } from './services/markers.service';
 import { MapComponent } from './components/map/map.component';
 import { InfoWindowComponent } from './components/info-window/info-window.component';
 import { PreviewPipe } from './pipes/preview.pipe';
+import { MarkerMapComponent } from './components/marker-map/marker-map.component';
 
 @NgModule({
     declarations: [
@@ -13,6 +14,7 @@ import { PreviewPipe } from './pipes/preview.pipe';
         MapComponent,
         InfoWindowComponent,
         PreviewPipe,
+        MarkerMapComponent,
     ],
     imports: [BrowserModule],
     providers: [MarkersService],

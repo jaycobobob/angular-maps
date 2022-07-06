@@ -4,7 +4,7 @@ import { Pipe, PipeTransform } from '@angular/core';
     name: 'preview',
 })
 export class PreviewPipe implements PipeTransform {
-    transform(value: string, previewLength?: number) {
+    transform(value: string, previewLength: number = 100) {
         if (!value) {
             return null;
         }
@@ -17,6 +17,9 @@ export class PreviewPipe implements PipeTransform {
             if (!pass) out += c;
             if (c === ']') pass = false;
         }
-        return out.substring(0, previewLength) + '...';
+        return (
+            out.substring(0, previewLength) +
+            (out.length > previewLength ? '...' : '')
+        );
     }
 }
