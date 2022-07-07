@@ -5,7 +5,7 @@ export interface ShortTeamData {
     title: string;
     logo: string;
     summary: string;
-    stadiumSrc: string;
+    uid: string;
 }
 
 export interface Marker {
@@ -36,12 +36,14 @@ export class TeamDataService {
             title: teamData.title,
             logo: teamData.logo,
             summary: teamData.summary,
-            stadiumSrc: teamData.stadiumData.src,
+            uid: uid,
         };
     };
 
     getFullTeamData = (uid: string): TeamData => {
-        let teamData = teams.find((team) => team.uid === uid);
+        let teamData = teams.find(
+            (team) => team.uid.toLowerCase() === uid.toLowerCase()
+        );
         return teamData ? teamData : nullTeam;
     };
 }

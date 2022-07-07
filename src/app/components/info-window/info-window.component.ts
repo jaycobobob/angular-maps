@@ -9,4 +9,5 @@ export class InfoWindowComponent {
     @Input('heading') heading: string = 'Default Heading';
     @Input('contents') contents: string = 'Default Contents';
     @Input('src') src: string = '...';
+    @Input('uid') linkUid: string = '';
 }

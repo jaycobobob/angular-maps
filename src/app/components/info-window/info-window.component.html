@@ -1,7 +1,22 @@
 <div class="card container-sm">
-    <img src="{{ src }}" class="card-img-top" alt="{{ heading }}" />
-    <div class="card-body">
-        <h5 class="card-title">{{ heading }}</h5>
-        <p class="card-text">{{ contents | preview: 200 }}</p>
+    <div class="row g-0 card-title">
+        <div class="col-sm-4">
+            <a [routerLink]="['/teams', linkUid]"
+                ><img
+                    class="img-fluid rounded-start"
+                    [src]="src"
+                    [alt]="heading"
+            /></a>
+        </div>
+        <div class="col-sm-8 my-auto">
+            <h4 class="team-name m-0">{{ heading }}</h4>
+        </div>
+    </div>
+
+    <div class="card-body p-0 pb-3 container-fluid">
+        <p class="card-text">
+            {{ contents | preview: 200
+            }}<a [routerLink]="['/teams', linkUid]">Read more</a>
+        </p>
     </div>
 </div>

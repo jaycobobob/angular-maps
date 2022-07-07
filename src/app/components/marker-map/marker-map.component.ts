@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { usCenter } from 'src/app/locationData';
 import {
     ShortTeamData,
     TeamDataService,
@@ -11,13 +10,14 @@ import {
     styleUrls: ['./marker-map.component.css'],
 })
 export class MarkerMapComponent {
-    center = usCenter;
+    center = { lat: 39.5, lng: -98.35 };
     hasWindowDisplayed = false;
-    getTeamData: Function;
+    getTeamData: { (uid: string): ShortTeamData };
     teamData!: ShortTeamData;
 
     constructor(service: TeamDataService) {
         this.getTeamData = service.getShortTeamData;
+        this.teamData = this.getTeamData('');
     }
 
     hideInfoWindow = () => {

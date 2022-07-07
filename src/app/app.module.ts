@@ -11,6 +11,8 @@ import { HomePageComponent } from './components/pageComponents/home-page/home-pa
 import { NotFoundPageComponent } from './components/pageComponents/not-found-page/not-found-page.component';
 import { TeamPageComponent } from './components/pageComponents/team-page/team-page.component';
 import { TeamDataService } from './services/team-data.service';
+import { NavbarComponent } from './components/pageComponents/navbar/navbar.component';
+import { ChampionshipDisplayComponent } from './components/pageComponents/team-page/championship-display/championship-display.component';
 
 @NgModule({
     declarations: [
@@ -22,6 +24,8 @@ import { TeamDataService } from './services/team-data.service';
         HomePageComponent,
         TeamPageComponent,
         NotFoundPageComponent,
+        NavbarComponent,
+        ChampionshipDisplayComponent,
     ],
     imports: [
         BrowserModule,

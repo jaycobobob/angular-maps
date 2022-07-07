@@ -1,3 +1,7 @@
 div.card {
     max-width: 16rem;
 }
+
+h4.team-name {
+    text-decoration: none !important;
+}

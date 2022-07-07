@@ -1,0 +1,7 @@
+<div class="d-flex flex-wrap">
+    <i class="bi-trophy-fill pe-1 h1" *ngFor="let number of arr"></i>
+    <i class="bi-trophy h1" [hidden]="count !== 0"></i>
+</div>
+<p class="h5">
+    {{ count }} {{ count !== 1 ? "Championships" : "Championship" }}
+</p>

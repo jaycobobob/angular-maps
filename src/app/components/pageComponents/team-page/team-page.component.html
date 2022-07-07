@@ -1,1 +1,60 @@
-<p>team-page works!</p>
+<navbar></navbar>
+<div class="container-md py-2 px-5">
+    <div class="row">
+        <div class="col-md-4">
+            <img id="logo" class="" [src]="teamData.logo" />
+        </div>
+        <div class="col-md-8 my-auto">
+            <h1 class="display-1">
+                <strong>{{ teamData.title }}</strong>
+            </h1>
+            <championship-display
+                [count]="teamData.teamHistory.championships"
+            ></championship-display>
+            <p class="h5 small">
+                {{ teamData.teamHistory.playoffAppearances }} Playoff
+                Appearances
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <p>{{ teamData.summary }}</p>
+    </div>
+    <div class="row pb-3">
+        <p class="h2">{{ teamData.stadiumData.name }}</p>
+        <div class="col-md-8">
+            <img
+                id="stadium"
+                [src]="teamData.stadiumData.src"
+                [alt]="teamData.stadiumData.name"
+            />
+        </div>
+        <div class="col-md-4">
+            <p class="h4 text-decoration-underline">Stadium Info</p>
+            <p><u>Address:</u> {{ teamData.stadiumData.address }}</p>
+            <p><u>Capacity:</u> {{ teamData.stadiumData.capacity | number }}</p>
+            <p>
+                <u>Average Ticket Price:</u> ${{
+                    teamData.stadiumData.avgTicketPrice | number
+                }}
+            </p>
+            <p>
+                <u>Lowest Ticket Price:</u> ${{
+                    teamData.stadiumData.cheapestTicketPrice
+                }}
+            </p>
+        </div>
+    </div>
+    <div>
+        <p class="h2">Franchise Legends</p>
+        <ul>
+            <li
+                class="m-0"
+                [class.goat]="player === teamData.teamHistory.allTimeBestPlayer"
+                *ngFor="let player of teamData.teamHistory.noteablePlayers"
+            >
+                {{ player }}
+            </li>
+        </ul>
+    </div>
+</div>
