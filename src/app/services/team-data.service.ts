@@ -12,6 +12,7 @@ export interface Marker {
     position: google.maps.LatLngLiteral;
     title: string;
     uid: string;
+    logo: string;
 }
 
 @Injectable({
@@ -20,10 +21,11 @@ export interface Marker {
 export class TeamDataService {
     getMarkers = () => {
         return teams.map((team) => {
-            const marker = {
+            const marker: Marker = {
                 position: team.position,
                 title: team.title,
                 uid: team.uid,
+                logo: team.logo,
             };
             return marker;
         });

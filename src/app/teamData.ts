@@ -64,7 +64,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg',
         stadiumData: {
             name: 'TD Garden',
-            src: 'https://th.bing.com/th/id/OIP.aCx9109Yer3EmzVJgXe_jwHaE8?w=259&h=180&c=7&r=0&o=5&pid=1.7',
+            src: 'https://th.bing.com/th/id/R.a2bd0fe97c81d9de15f3784de448d674?rik=jOUAO3CazVFHVA&pid=ImgRaw&r=0',
             capacity: 17565,
             address: '100 Legends Way, Boston, MA 02114',
             avgTicketPrice: 309,
@@ -99,7 +99,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg',
         stadiumData: {
             name: "Barclay's Center",
-            src: 'https://th.bing.com/th/id/OIP._4Iv9BbPUTt8xJGZRrq3ugHaE8?w=276&h=184&c=7&r=0&o=5&pid=1.7',
+            src: 'https://th.bing.com/th/id/OIP.IOX51YczTa5JNrExObRNrwHaEb?pid=ImgDet&rs=1',
             capacity: 17000,
             address: '620 Atlantic Ave, Brooklyn, NY 11217',
             avgTicketPrice: 339,
@@ -125,7 +125,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg',
         stadiumData: {
             name: 'Madison Square Garden',
-            src: 'https://th.bing.com/th/id/OIP.BgCWWk6QLiTADHNn5skIRwHaE8?w=278&h=185&c=7&r=0&o=5&pid=1.7',
+            src: 'https://media.timeout.com/images/102717039/image.jpg',
             capacity: 18200,
             address: '4 Pennsylvania Plz, New York, NY 10001',
             avgTicketPrice: 394,
@@ -157,7 +157,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg',
         stadiumData: {
             name: 'Wells Fargo Center',
-            src: 'https://th.bing.com/th/id/OIP.Q3IZJnFN68L7RA76R_3ddAHaFS?pid=ImgDet&rs=1',
+            src: 'https://th.bing.com/th/id/R.4163c36d0f5c447f76ebe07355ebabe2?rik=%2fzBO9Mm9OOtGcA&riu=http%3a%2f%2ffastphillysports.com%2fwp-content%2fuploads%2f2018%2f03%2fwells.jpg&ehk=T0VIg%2b5iX7eU%2bKIdScq33a1Kd8%2bhpjsOCUVpaZ15hoY%3d&risl=&pid=ImgRaw&r=0',
             capacity: 21000,
             address: '3601 S Broad St, Philadelphia, PA 19148',
             avgTicketPrice: 204,
@@ -189,7 +189,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg',
         stadiumData: {
             name: 'Scotiabank Arena',
-            src: 'https://th.bing.com/th/id/OIP.KrY09touQt7LghzXVNjSMgHaE7?pid=ImgDet&rs=1',
+            src: 'https://media.blogto.com/articles/20190530-gameday.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70',
             capacity: 19800,
             address: '40 Bay Street, Toronto Ontario M5J 2X2',
             avgTicketPrice: 208,
@@ -220,7 +220,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg',
         stadiumData: {
             name: 'United Center',
-            src: 'https://th.bing.com/th/id/OIP.MVU9k-w11ktVmUt1em3UDwHaEK?w=268&h=180&c=7&r=0&o=5&pid=1.7',
+            src: 'https://th.bing.com/th/id/OIP.MVU9k-w11ktVmUt1em3UDwHaEK?pid=ImgDet&rs=1',
             capacity: 20500,
             address: '1901 W Madison St, Chicago, IL 60612',
             avgTicketPrice: 225,
@@ -251,7 +251,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg',
         stadiumData: {
             name: 'Rocket Mortgage Fieldhouse',
-            src: 'https://th.bing.com/th/id/OIP.V1zda1rDeUr5WXZPYj0NRgHaE7?w=284&h=189&c=7&r=0&o=5&pid=1.7',
+            src: 'https://www.architecturalrecord.com/ext/resources/Issues/2020/08-August/Rocket-Mortgage-FieldHouse-01-B.jpg?1596653435',
             capacity: 20562,
             address: '1 Center Ct, Cleveland, OH 44115',
             avgTicketPrice: 102,
@@ -277,7 +277,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg',
         stadiumData: {
             name: 'Little Caesars Arena',
-            src: 'https://th.bing.com/th/id/OIP.y2ryze2lA2e0wePIID111AHaEk?w=281&h=180&c=7&r=0&o=5&pid=1.7',
+            src: 'https://bluewatertech-com.exactdn.com/wp-content/uploads/2018/05/Screen-Shot-2018-05-10-at-2.47.19-PM.png?strip=all&lossy=1&ssl=1',
             capacity: 20332,
             address: '2645 Woodward Avenue, Detroit, MI 48201',
             avgTicketPrice: 102,
@@ -310,7 +310,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg',
         stadiumData: {
             name: 'Gainbridge Fieldhouse',
-            src: 'https://th.bing.com/th/id/OIP.QIlA5ekwraIwHUHlgOkiggHaE8?w=267&h=180&c=7&r=0&o=5&pid=1.7',
+            src: 'https://cloudinary-assets.dostuffmedia.com/res/dostuff-media/image/upload/venue-45792/1477518155.jpg',
             capacity: 18345,
             address: '125 S Pennsylvania St, Indianapolis, IN 46204',
             avgTicketPrice: 141,
@@ -336,7 +336,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg',
         stadiumData: {
             name: 'Fiserv Forumn',
-            src: 'https://th.bing.com/th/id/OIP.pjMpMoWiUmu3FYRTNnZCSAHaEK?w=290&h=180&c=7&r=0&o=5&pid=1.7',
+            src: 'https://static.billboard.com/files/media/Exterior-with-statue-credit-Kenny-Yoo-Milwaukee-Bucks-2018-billboard-1548-1024x677.jpg',
             capacity: 17385,
             address: '1111 N Vel R Phillips Ave, Milwaukee, WI 53203',
             avgTicketPrice: 265,
@@ -367,7 +367,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg',
         stadiumData: {
             name: 'State Farm Arena',
-            src: 'https://th.bing.com/th/id/OIP.LV08XBfQcH-9gVxR74G9lAHaE8?w=291&h=194&c=7&r=0&o=5&pid=1.7',
+            src: 'https://cdn.vox-cdn.com/thumbor/z-N7VC1VoZBm9Os1JHGWHokgM3k=/0x0:920x613/1200x800/filters:focal(387x234:533x380)/cdn.vox-cdn.com/uploads/chorus_image/image/61897909/State_Farm_Arena__Brow.0.0.jpg',
             capacity: 19050,
             address: '1 Philips Drive, Atlanta, GA 30303',
             avgTicketPrice: 219,
@@ -397,7 +397,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg',
         stadiumData: {
             name: 'Spectrum Center',
-            src: 'https://th.bing.com/th/id/OIP.sYj0-_Npf3hBsV1LgoKPCAHaFK?w=282&h=196&c=7&r=0&o=5&pid=1.7',
+            src: 'https://th.bing.com/th/id/R.b188f4fbf3697f7841b15d4b82828f08?rik=Sbmtw6Jp%2bGtxnw&riu=http%3a%2f%2fwww.odell.com%2fwp-content%2fgallery%2fspectrum-center%2fBobcats.plaza_.jpg&ehk=XLcnpd5GZh1ORBj4IRiNJaaV9GBLVXUL%2fyWijoT7ym0%3d&risl=&pid=ImgRaw&r=0',
             capacity: 20200,
             address: '333 E Trade St, Charlotte, NC 28202',
             avgTicketPrice: 142,
@@ -428,7 +428,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg',
         stadiumData: {
             name: 'FTX Arena',
-            src: 'https://th.bing.com/th/id/OIP.WKyxsDVsWN3SEQU9n2KoMwHaEK?w=308&h=180&c=7&r=0&o=5&pid=1.7',
+            src: 'https://images.miamiandbeaches.com/crm/simpleview/image/upload/c_fit,w_1440,h_900/crm/miamifl/AAArena_Miami_Heat_aerial_1440x9000-cb3c4e215056a36_cb3c4f3a-5056-a36a-0b9a70bbc9e9dc68.jpg',
             capacity: 21000,
             address: '601 Biscayne Blvd, Miami, FL 33132',
             avgTicketPrice: 219,
@@ -459,7 +459,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg',
         stadiumData: {
             name: 'Amway Center',
-            src: 'https://th.bing.com/th/id/OIP.-fPxSU4tc4QM6QViYJBS4wHaEK?w=278&h=180&c=7&r=0&o=5&pid=1.7',
+            src: 'https://th.bing.com/th/id/R.a185c8142d1024450b15251f0913c9bf?rik=7L9w2C5ujQ4lcQ&riu=http%3a%2f%2fstadiumparkingguides.com%2fwp-content%2fuploads%2f2014%2f12%2fOrlando-ExternalPicture.jpg&ehk=pfY3CkiWF3foUJ5JeudUmj%2fh%2f10Dx1wGFCqnBvKv%2bs8%3d&risl=&pid=ImgRaw&r=0',
             capacity: 20000,
             address: '',
             avgTicketPrice: 105,
@@ -488,7 +488,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg',
         stadiumData: {
             name: 'Capital One Arena',
-            src: 'https://snagfilms-a.akamaihd.net/32fe2852-2f70-4c25-92eb-4144030c5ea4/images/31/05/ed478bb3483f8ef35bd4ef7e5fbe/1521820404005_capitalonearenapromoimages-tab.jpg',
+            src: 'https://th.bing.com/th/id/R.0d08b40fd5fd60f444300edbd2c2cda0?rik=USb9kAt6REJOQw&riu=http%3a%2f%2fsnagfilms-a.akamaihd.net%2fcf%2f9b%2fe264fb9047c7b96f3018eb0faf01%2fwashington-valor-sign-on-verizon-center.jpg&ehk=qtY1yadFeUfqsjFH9PEGMHBQuXS2r%2fgyRczf59a31oI%3d&risl=&pid=ImgRaw&r=0',
             capacity: 20356,
             address: '400 W Church St, Orlando, FL 32801',
             avgTicketPrice: 130,
@@ -519,7 +519,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg',
         stadiumData: {
             name: 'Ball Arena',
-            src: 'https://th.bing.com/th/id/OIP.Rv5WnasB0wTN4vkhzK8s2QHaEa?w=309&h=183&c=7&r=0&o=5&pid=1.7',
+            src: 'https://www.multivu.com/players/English/8651052-ball-corporation-kroenke-sports-and-entertainment-partnership/image/BallArenaExterior_1603371160943-HR.jpg',
             capacity: 18007,
             address: '1000 Chopper Cir, Denver, CO 80204',
             avgTicketPrice: 200,
@@ -550,7 +550,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg',
         stadiumData: {
             name: 'Target Center',
-            src: 'https://th.bing.com/th/id/OIP.sY0m4oQhMnT9GTXZL28LWQHaE8?w=300&h=200&c=7&r=0&o=5&pid=1.7',
+            src: 'https://th.bing.com/th/id/R.342dc5bd2416cb92c9c6bf9c985cd1de?rik=3bvE1aByN5UhIA&riu=http%3a%2f%2farenadigest.com%2fwp-content%2fuploads%2f2017%2f12%2ftargetcenter2017-1280.jpg&ehk=PdKKMfFZXFY%2fuxR254E%2f%2fJ0TFpZjaKCYm3nq6S4zMo8%3d&risl=&pid=ImgRaw&r=0',
             capacity: 20500,
             address: '600 1st Ave N, Minneapolis, MN 55403',
             avgTicketPrice: 91,
@@ -580,7 +580,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg',
         stadiumData: {
             name: 'Paycom Center',
-            src: 'https://th.bing.com/th/id/OIP.OAlwQeXWTJbgh_SYkfD5DwHaEK?w=282&h=180&c=7&r=0&o=5&pid=1.7',
+            src: 'https://arenadigest.com/wp-content/uploads/2021/07/paycom_center.jpg',
             capacity: 20000,
             address: '100 W Reno Ave., Oklahoma City, OK 73102',
             avgTicketPrice: 163,
@@ -611,7 +611,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg',
         stadiumData: {
             name: 'Moda Center',
-            src: 'https://th.bing.com/th/id/R.1d0cad06b6b20dba19c44867f2fd6270?rik=K8YveO1pvnvcpA&pid=ImgRaw&r=0',
+            src: 'https://i.pinimg.com/originals/e4/c2/53/e4c253d6d5541e189d338d1a0fc6a9f2.jpg',
             capacity: 19393,
             address: '1 N Center Court St, Portland, OR 97227',
             avgTicketPrice: 127,
@@ -641,7 +641,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg',
         stadiumData: {
             name: 'Vivint Smarthome Arena',
-            src: 'https://th.bing.com/th/id/R.7fe75f16b318b915763567530f06ddf8?rik=tkd0zmaMWIB%2bng&riu=http%3a%2f%2fcdn.chatsports.com%2fthumbnails%2f1350-39032-original.jpeg&ehk=JbVTBu%2bBdMaVlt1%2f69zLTFbGckg7zaLCi%2bixoPepWTc%3d&risl=&pid=ImgRaw&r=0',
+            src: 'https://sportsvenuebusiness.com/wp-content/uploads/2017/10/Vivint-SmartHome-Arena-main-entry-view-from-300-west-north-temple.jpg',
             capacity: 19980,
             address: '301 W South Temple, Salt Lake City, UT 84101',
             avgTicketPrice: 157,
@@ -675,7 +675,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg',
         stadiumData: {
             name: 'Chase Center',
-            src: 'https://th.bing.com/th/id/OIP.38s7TAmJSLKg9VriUIAMCAHaE8?w=290&h=193&c=7&r=0&o=5&pid=1.7',
+            src: 'https://cdnassets.hw.net/55/eb/4123c56e48aeab189c0376a76c39/chase-center-east-side-view-with-seeing-spheres2-photo-credit-jason-orear.jpg',
             capacity: 18064,
             address: '1 Warriors Way, San Francisco, CA 94158',
             avgTicketPrice: 589,
@@ -708,7 +708,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg',
         stadiumData: {
             name: 'Crypto.com Arena',
-            src: 'https://th.bing.com/th/id/OIP.PvlDIgSACUyshtrctMTTIAHaE5?w=272&h=180&c=7&r=0&o=5&pid=1.7',
+            src: 'https://static.billboard.com/files/media/staples-center-exterior-billboard-a-1548-compressed.jpg',
             capacity: 19067,
             address: '1111 S Figueroa St, Los Angeles, CA 90015',
             avgTicketPrice: 242,
@@ -738,7 +738,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg',
         stadiumData: {
             name: 'Crypto.com Arena',
-            src: 'https://th.bing.com/th/id/OIP.PvlDIgSACUyshtrctMTTIAHaE5?w=272&h=180&c=7&r=0&o=5&pid=1.7',
+            src: 'https://static.billboard.com/files/media/staples-center-exterior-billboard-a-1548-compressed.jpg',
             capacity: 19067,
             address: '1111 S Figueroa St, Los Angeles, CA 90015',
             avgTicketPrice: 562,
@@ -771,7 +771,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg',
         stadiumData: {
             name: 'Talking Stick Arena',
-            src: 'https://th.bing.com/th/id/OIP.K9ENCYHFAeura9My-UR9owHaE8?w=249&h=180&c=7&r=0&o=5&pid=1.7',
+            src: 'https://venuecoalition.com/wp-content/uploads/2017/07/talking_stick2.jpg',
             capacity: 18000,
             address: '201 E Jefferson St, Phoenix, AZ 85004',
             avgTicketPrice: 213,
@@ -801,7 +801,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg',
         stadiumData: {
             name: 'Golden 1 Center',
-            src: 'https://th.bing.com/th/id/OIP.8yqhO-P9VP13BeNnlXaW6QHaD4?w=323&h=180&c=7&r=0&o=5&pid=1.7',
+            src: 'https://d3nxoulyw7bc8u.cloudfront.net/images/venue/None/98e27946-7a53-4b13-b26f-dfdef6fc960b.jpg',
             capacity: 17608,
             address: '500 David J Stern Walk, Sacramento, CA 95814',
             avgTicketPrice: 126,
@@ -831,7 +831,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg',
         stadiumData: {
             name: 'American Airlines Center',
-            src: 'https://th.bing.com/th/id/OIP.yoJZnTDSs1UbuNyv8E37ZQHaF8?w=206&h=180&c=7&r=0&o=5&pid=1.7',
+            src: 'https://th.bing.com/th/id/R.b290e4bc64752134879a39c90cac924f?rik=UvbUPNTrcnn8lw&pid=ImgRaw&r=0',
             capacity: 18500,
             address: '2500 Victory Ave, Dallas, TX 75219',
             avgTicketPrice: 160,
@@ -861,7 +861,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg',
         stadiumData: {
             name: 'Toyota Center',
-            src: 'https://th.bing.com/th/id/OIP.8bKpqxZt-HGNwKHgpytn5gHaFj?w=287&h=215&c=7&r=0&o=5&pid=1.7',
+            src: 'https://stadiumjourney.com/wp-content/uploads/2017/08/Toyota-Center-Aerial-View-Photo-courtesy-of-the-Houston-Rockets.jpg',
             capacity: 18055,
             address: '1510 Polk St, Houston, TX 77002',
             avgTicketPrice: 169,
@@ -891,7 +891,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg',
         stadiumData: {
             name: 'FedExForum',
-            src: 'https://th.bing.com/th/id/OIP.9MIrEEIDqYvXscM08f4vIQHaE7?w=294&h=196&c=7&r=0&o=5&pid=1.7',
+            src: 'https://stadiumjourney.com/wp-content/uploads/2017/08/FedExForum-exterior.jpg',
             capacity: 18119,
             address: '191 Beale St, Memphis, TN 38103',
             avgTicketPrice: 107,
@@ -921,7 +921,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg',
         stadiumData: {
             name: 'Smoothie King Center',
-            src: 'https://th.bing.com/th/id/OIP.fpozIHcTodrv_peslmaKYwHaEK?w=313&h=180&c=7&r=0&o=5&pid=1.7',
+            src: 'https://d3nxoulyw7bc8u.cloudfront.net/images/venue/None/9c4f0db8-277f-430f-9fc5-25f877a7ea3f.jpg',
             capacity: 18000,
             address: '1599 Le Rouge St, New Orleans, LA 70113',
             avgTicketPrice: 144,
@@ -951,7 +951,7 @@ export const teams: TeamData[] = [
         logo: 'https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg',
         stadiumData: {
             name: 'AT&T Center',
-            src: 'https://th.bing.com/th/id/OIP.8zGKJ-PC-QrL6zL99hcLQgHaEK?w=308&h=180&c=7&r=0&o=5&pid=1.7',
+            src: 'https://www.texasgigs.com/wp-content/uploads/2020/08/ATT-Center.jpg',
             capacity: 18581,
             address: '1 At And T Center Pkwy, San Antonio, TX 78219',
             avgTicketPrice: 163,

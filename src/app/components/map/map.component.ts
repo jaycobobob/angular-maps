@@ -21,7 +21,18 @@ export class MapComponent implements OnInit {
 
     // creates a new marker and adds it to the existing map
     private injectMarker(props: Marker) {
-        let marker = new google.maps.Marker({ ...props, map: this.map });
+        const imgSize = 60;
+        const markerIcon = {
+            url: props.logo,
+            scaledSize: new google.maps.Size(imgSize, imgSize),
+            anchor: new google.maps.Point(imgSize / 2, imgSize / 2),
+            origin: new google.maps.Point(0, 0),
+        };
+        const marker = new google.maps.Marker({
+            ...props,
+            map: this.map,
+            icon: markerIcon,
+        });
         google.maps.event.addListener(marker, 'click', () => {
             console.log(`clicked on ${props.title}`);
             this.infoWindow.open({
