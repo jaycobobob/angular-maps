@@ -1,10 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { usCenter } from 'src/app/locationData';
 import {
-    LocationProperties,
-    nullLocation,
-    usCenter,
-} from 'src/app/locationData';
-import { MarkersService } from 'src/app/services/markers.service';
+    ShortTeamData,
+    TeamDataService,
+} from 'src/app/services/team-data.service';
 
 @Component({
     selector: 'marker-map',
@@ -14,11 +13,11 @@ import { MarkersService } from 'src/app/services/markers.service';
 export class MarkerMapComponent {
     center = usCenter;
     hasWindowDisplayed = false;
-    getLocationData: { (uid: string): LocationProperties };
-    locationData: LocationProperties = nullLocation;
+    getTeamData: Function;
+    teamData!: ShortTeamData;
 
-    constructor(locationService: MarkersService) {
-        this.getLocationData = locationService.getLocationData;
+    constructor(service: TeamDataService) {
+        this.getTeamData = service.getShortTeamData;
     }
 
     hideInfoWindow = () => {
@@ -27,6 +26,6 @@ export class MarkerMapComponent {
 
     infoWindowDisplayed = (uid: string) => {
         this.hasWindowDisplayed = true;
-        this.locationData = this.getLocationData(uid);
+        this.teamData = this.getTeamData(uid);
     };
 }

@@ -1,7 +1,6 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Loader } from '@googlemaps/js-api-loader';
-import { MarkerProperties } from '../../locationData';
-import { MarkersService } from '../../services/markers.service';
+import { Marker, TeamDataService } from 'src/app/services/team-data.service';
 
 @Component({
     selector: 'google-map',
@@ -11,17 +10,17 @@ import { MarkersService } from '../../services/markers.service';
 export class MapComponent implements OnInit {
     map!: google.maps.Map;
     infoWindow!: google.maps.InfoWindow;
-    markers: MarkerProperties[] = [];
+    markers: Marker[] = [];
 
     @Input('center') mapCenter: google.maps.LatLngLiteral = { lat: 0, lng: 0 };
     @Output('display') display = new EventEmitter();
 
-    constructor(markersService: MarkersService) {
-        this.markers = markersService.getMarkers();
+    constructor(service: TeamDataService) {
+        this.markers = service.getMarkers();
     }
 
     // creates a new marker and adds it to the existing map
-    private injectMarker(props: MarkerProperties) {
+    private injectMarker(props: Marker) {
         let marker = new google.maps.Marker({ ...props, map: this.map });
         google.maps.event.addListener(marker, 'click', () => {
             console.log(`clicked on ${props.title}`);
